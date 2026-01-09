@@ -36,6 +36,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/WizardsBowl/TestStaticWebsite' }
     ],
 
+    footer: {
+      message: 'Released under the <a href="https://github.com/WizardsBowl/TestStaticWebsite/blob/main/LICENSE" target="_blank">MIT License</a>.',
+      copyright: 'Copyright © 2026-present <a href="https://github.com/WizardsBowl" target="_blank">WizardsBowl</a>. All rights reserved.'
+    },
+
     search:{
       provider: 'local',
       options: {

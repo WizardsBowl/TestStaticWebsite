@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: 巫碗子
+  text: 测试性静态网站 of WizardsBowl
+  tagline: 只是随便写写而已
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 介绍
+      link: /introduction/introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 示例
+      link: /vitepress-examples/markdown-examples
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 没有任何用处的的文章
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 消磨时间
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 愉悦身心
 ---
 

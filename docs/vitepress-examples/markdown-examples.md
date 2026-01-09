@@ -1,5 +1,10 @@
 # Markdown Extension Examples
 
+::: tip
+此页面为VitePress项目自带，我并没有删除它，但也不打算翻译它。  
+如果需要你可以看一看[VitePress的官网](https://vitepress.dev/zh/guide/what-is-vitepress)。
+:::
+
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
 ## Syntax Highlighting

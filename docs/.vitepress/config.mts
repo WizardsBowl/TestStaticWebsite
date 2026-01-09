@@ -27,6 +27,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WizardsBowl/TestStaticWebsite' }
-    ]
-  }
+    ],
+
+    search:{
+      provider: 'local'
+    }
+  },
+  lastUpdated: true
 })

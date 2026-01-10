@@ -41,13 +41,25 @@ const { site, theme, page, frontmatter } = useData()
 ## Results
 
 ### Theme Data
+*由于输出内容过长，我禁用了它*
+
+```md
 <pre>{{ theme }}</pre>
+```
 
 ### Page Data
+*由于输出内容过长，我禁用了它*
+
+```md
 <pre>{{ page }}</pre>
+```
 
 ### Page Frontmatter
+*由于输出内容过长，我禁用了它*
+
+```md
 <pre>{{ frontmatter }}</pre>
+```
 
 ## More
 

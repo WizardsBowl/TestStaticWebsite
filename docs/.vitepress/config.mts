@@ -6,6 +6,7 @@ export default defineConfig({
   description: "测试性静态网站 of WizardsBowl",
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/icon.svg' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/assets/logo.svg',
@@ -91,5 +92,13 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容'
   },
-  lastUpdated: true
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  }
 })

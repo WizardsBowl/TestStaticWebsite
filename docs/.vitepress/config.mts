@@ -1,11 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+import heimu from './custom-md/heimu.mjs'
+import grayItalic from './custom-md/gray-italic.mjs'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "巫碗子",
   description: "测试性静态网站 of WizardsBowl",
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/icon.svg' }]],
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/logo.svg' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/assets/logo.svg',
@@ -68,17 +72,18 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: [2, 3]
     },
 
     lastUpdated: {
-      text: '最后更新于'
+      text: '最后编辑于'
     },
 
     notFound: {
-      title: '页面未找到',
+      title: 'CONTENT MISSING',
       quote:
-        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+        '你的URL输对了吗？',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },
@@ -91,5 +96,17 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容'
   },
-  lastUpdated: true
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    },
+    config: (md) => {
+      md.use(heimu);
+      md.use(grayItalic);
+    }
+  }
 })

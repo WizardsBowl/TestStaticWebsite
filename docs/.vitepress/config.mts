@@ -97,6 +97,7 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容'
   },
   markdown: {
+    lineNumbers: true,
     container: {
       tipLabel: '提示',
       warningLabel: '警告',

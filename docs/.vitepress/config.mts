@@ -58,7 +58,7 @@ export default defineConfig({
         {
           text: '关于本站',
           items: [
-            { text: '巫碗子简介', link: '/about/index' }
+            { text: '巫碗子简介', link: '/about/' }
           ]
         }
       ],
@@ -67,7 +67,7 @@ export default defineConfig({
         {
           text: '关于编程板块',
           items: [
-            { text: '编程板块简介', link: '/programming/index' }
+            { text: '编程板块简介', link: '/programming/' }
           ]
         }
       ],
@@ -76,7 +76,7 @@ export default defineConfig({
         {
           text: '关于随笔板块',
           items: [
-            { text: '随笔板块简介', link: '/essay/index' }
+            { text: '随笔板块简介', link: '/essay/' }
           ]
         }
       ],
@@ -85,7 +85,7 @@ export default defineConfig({
         {
           text: '关于网站日志板块',
           items: [
-            { text: '网站日志板块简介', link: '/sitelog/index' },
+            { text: '网站日志板块简介', link: '/sitelog/' },
             { text: '网站日志', link: '/sitelog/logs' }
           ]
         },
@@ -104,7 +104,8 @@ export default defineConfig({
         {
           text: 'VitePress',
           items: [
-            { text: '使用VitePress', link: '/sitelog/vitepress/using-vitepress' }
+            { text: '使用VitePress', link: '/sitelog/vitepress/using-vitepress' },
+            { text: 'index页面问题', link: '/sitelog/vitepress/index-page-problem' }
           ]
         }
       ]

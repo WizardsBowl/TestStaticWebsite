@@ -1,10 +1,3 @@
----
-prev: false
-next: 
-    text: '网站日志'
-    link: '/sitelog/logs'
----
-
 # 网站日志板块简介
 
 记录一些我在建立网站时遇到的问题以及解决方法。

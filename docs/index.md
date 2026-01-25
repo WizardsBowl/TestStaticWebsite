@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: 巫碗子
-  text: 测试性静态网站 of WizardsBowl
+  text: WizardsBowl<br>的另一个博客
   tagline: 只是随便写写而已
   actions:
     - theme: brand
-      text: 介绍
-      link: /introduction/introduction
+      text: 网站简介
+      link: /about/index
     - theme: alt
-      text: 示例
-      link: /vitepress-examples/markdown-examples
+      text: 网站日志
+      link: /sitelog/index
 
 features:
   - title: Feature A

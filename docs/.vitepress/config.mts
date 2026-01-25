@@ -116,7 +116,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the <a href="https://github.com/WizardsBowl/TestStaticWebsite/blob/main/LICENSE" target="_blank">MIT License</a>.',
+      message: 'Released under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0 License</a>.',
       copyright: 'Copyright © 2026-present <a href="https://github.com/WizardsBowl" target="_blank">WizardsBowl</a>. All rights reserved.'
     },
 

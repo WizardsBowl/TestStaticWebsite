@@ -2,7 +2,8 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
 import DownloadCounter from './components/DownloadCounter.vue'
-import './custom.css'
+import './css/heimu.css'
+import './css/gray-italic.css'
 
 export default {
   extends: DefaultTheme,

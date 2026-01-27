@@ -1,0 +1,12 @@
+:root {
+    --wzb-gray-italic-text-color: #707070;
+}
+
+.dark{
+    --wzb-gray-italic-text-color: #909090;
+}
+
+.gray-italic {
+    color: var(--wzb-gray-italic-text-color);
+    font-style: italic;
+}

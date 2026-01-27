@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 网站简介
-      link: /about/index
+      link: /about/
     - theme: alt
       text: 网站日志
-      link: /sitelog/index
+      link: /sitelog/
 
 features:
   - title: Feature A

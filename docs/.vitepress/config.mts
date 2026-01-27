@@ -21,7 +21,7 @@ export default defineConfig({
         text: '关于',
         activeMatch: '/about/',
         items: [
-          { text: '网站简介', link: '/about/index' }
+          { text: '网站简介', link: '/about/' }
         ]
       },
 
@@ -29,7 +29,7 @@ export default defineConfig({
         text: '编程',
         activeMatch: '/programming/',
         items: [
-          { text: '板块简介', link: '/programming/index' }
+          { text: '板块简介', link: '/programming/' }
         ]
       },
 
@@ -37,7 +37,7 @@ export default defineConfig({
         text: '随笔',
         activeMatch: '/essay/',
         items: [
-          { text: '板块简介', link: '/essay/index' }
+          { text: '板块简介', link: '/essay/' }
         ]
       },
 
@@ -45,7 +45,7 @@ export default defineConfig({
         text: '网站日志',
         activeMatch: '/sitelog/',
         items: [
-          { text: '板块简介', link: '/sitelog/index' },
+          { text: '板块简介', link: '/sitelog/' },
           { text: '域名问题', link: '/sitelog/domain/buy-a-domain' },
           { text: 'Cloudflare', link: '/sitelog/cloudflare/add-site' },
           { text: 'VitePress', link: '/sitelog/vitepress/using-vitepress' }

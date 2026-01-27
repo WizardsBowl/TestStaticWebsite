@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
-import heimu from './custom-md/heimu.mjs'
-import grayItalic from './custom-md/gray-italic.mjs'
+import heimu from './markdown-it-plugins/heimu.mjs'
+import grayItalic from './markdown-it-plugins/gray-italic.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

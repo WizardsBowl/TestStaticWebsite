@@ -173,6 +173,9 @@ export default defineConfig({
   },
   markdown: {
     lineNumbers: true,
+    image: {
+      lazyLoading: true
+    },
     container: {
       tipLabel: '提示',
       warningLabel: '警告',

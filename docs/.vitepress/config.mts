@@ -1,9 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 import { spoiler } from "@mdit/plugin-spoiler";
-
 import heimu from './markdown-it-plugins/heimu.mjs'
 import grayItalic from './markdown-it-plugins/gray-italic.mjs'
+
+import aboutSidebar from './sidebar/about.mts'
+import programmingSidebar from './sidebar/programming.mts'
+import essaySidebar from './sidebar/essay.mts'
+import sitelogSidebar from './sidebar/sitelog.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,61 +60,10 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/about/': [
-        {
-          text: '关于本站',
-          items: [
-            { text: '巫碗子简介', link: '/about/' }
-          ]
-        }
-      ],
-
-      '/programming/': [
-        {
-          text: '关于编程板块',
-          items: [
-            { text: '编程板块简介', link: '/programming/' }
-          ]
-        }
-      ],
-
-      '/essay/': [
-        {
-          text: '关于随笔板块',
-          items: [
-            { text: '随笔板块简介', link: '/essay/' }
-          ]
-        }
-      ],
-
-      '/sitelog/': [
-        {
-          text: '关于网站日志板块',
-          items: [
-            { text: '网站日志板块简介', link: '/sitelog/' },
-            { text: '网站日志', link: '/sitelog/logs' }
-          ]
-        },
-        {
-          text: '域名问题',
-          items: [
-            { text: '购买域名', link: '/sitelog/domain/buy-a-domain' }
-          ]
-        },
-        {
-          text: 'Cloudflare',
-          items: [
-            { text: '向CF加入域', link: '/sitelog/cloudflare/add-site' }
-          ]
-        },
-        {
-          text: 'VitePress',
-          items: [
-            { text: '使用VitePress', link: '/sitelog/vitepress/using-vitepress' },
-            { text: 'index页面问题', link: '/sitelog/vitepress/index-page-problem' }
-          ]
-        }
-      ]
+      '/about/': aboutSidebar,
+      '/programming/': programmingSidebar,
+      '/essay/': essaySidebar,
+      '/sitelog/': sitelogSidebar
     },
 
     socialLinks: [

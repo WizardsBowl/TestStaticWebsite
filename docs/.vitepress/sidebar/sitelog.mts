@@ -1,0 +1,28 @@
+export default [
+    {
+        text: '关于网站日志板块',
+        items: [
+            { text: '网站日志板块简介', link: '/sitelog/' },
+            { text: '网站日志', link: '/sitelog/logs' }
+        ]
+    },
+    {
+        text: '域名问题',
+        items: [
+            { text: '购买域名', link: '/sitelog/domain/buy-a-domain' }
+        ]
+    },
+    {
+        text: 'Cloudflare',
+        items: [
+            { text: '向CF加入域', link: '/sitelog/cloudflare/add-site' }
+        ]
+    },
+    {
+        text: 'VitePress',
+        items: [
+            { text: '使用VitePress', link: '/sitelog/vitepress/using-vitepress' },
+            { text: 'index页面问题', link: '/sitelog/vitepress/index-page-problem' }
+        ]
+    }
+];

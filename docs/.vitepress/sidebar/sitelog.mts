@@ -15,7 +15,8 @@ export default [
     {
         text: 'Cloudflare',
         items: [
-            { text: '向CF加入域', link: '/sitelog/cloudflare/add-site' }
+            { text: '向CF加入域', link: '/sitelog/cloudflare/add-site' },
+            { text: 'R2&D1&Workers联动', link: '/sitelog/cloudflare/r2-d1-workers' }
         ]
     },
     {

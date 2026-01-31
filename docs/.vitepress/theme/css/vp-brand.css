@@ -1,0 +1,18 @@
+:root {
+    --wzb-c-skyblue-1: hsl(210, 82%, 72%);
+    --wzb-c-skyblue-2: hsl(210, 82%, 78%);
+    --wzb-c-skyblue-3: hsl(210, 82%, 84%);
+    --wzb-c-skyblue-soft: hsla(210, 100%, 80%, 0.14);
+
+    --wzb-c-pink-1: hsl(335, 82%, 72%);
+    --wzb-c-pink-2: hsl(335, 82%, 78%);
+    --wzb-c-pink-3: hsl(335, 82%, 84%);
+    --wzb-c-pink-soft: hsla(335, 100%, 80%, 0.14);
+}
+
+:root {
+    --vp-c-brand-1: var(--wzb-c-pink-1);
+    --vp-c-brand-2: var(--wzb-c-pink-2);
+    --vp-c-brand-3: var(--wzb-c-pink-3);
+    --vp-c-brand-soft: var(--wzb-c-pink-soft);
+}

@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import DownloadCounter from './components/DownloadCounter.vue'
 import './css/heimu.css'
 import './css/gray-italic.css'
+import './css/vp-brand.css'
 
 export default {
   extends: DefaultTheme,

@@ -5,7 +5,7 @@
 
 .dark {
     --vp-nav-bg-color: #550808;
-    --vp-local-nav-bg-color: #660f0f;
+    --vp-local-nav-bg-color: #741e1e;
 }
 
 div#app>div.Layout>header.VPNav {

@@ -1,0 +1,14 @@
+:root {
+    --vp-nav-bg-color: #f7dada;
+    --vp-local-nav-bg-color: #f8f0f0;
+}
+
+.dark {
+    --vp-nav-bg-color: #550808;
+    --vp-local-nav-bg-color: #660f0f;
+}
+
+div#app div.Layout header.VPNav {
+    background-color: var(--vp-nav-bg-color);
+    --docsearch-search-button-background: var(--vp-local-nav-bg-color)
+}

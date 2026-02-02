@@ -8,7 +8,15 @@
     --vp-local-nav-bg-color: #660f0f;
 }
 
-div#app div.Layout header.VPNav {
+div#app>div.Layout>header.VPNav {
     background-color: var(--vp-nav-bg-color);
     --docsearch-search-button-background: var(--vp-local-nav-bg-color)
+}
+
+div#app>div.Layout>header.VPNav>div.VPNavBar>div.divider>div.divider-line {
+    height: 0px;
+}
+
+div#app>div.Layout>header.VPNav>div.VPNavBar>div.wrapper>div.container>div.title>div.VPNavBarTitle>a.title {
+    border-bottom-width: 0px;
 }

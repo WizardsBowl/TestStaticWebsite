@@ -73,4 +73,4 @@ export default function gray_italic_plugin(md) {
     // Pass the token to the default renderer.
     return defaultRender(tokens, idx, options, env, self);
   };
-};
+}

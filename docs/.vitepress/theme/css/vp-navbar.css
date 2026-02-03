@@ -10,7 +10,7 @@
 
 div#app>div.Layout>header.VPNav {
     background-color: var(--vp-nav-bg-color);
-    --docsearch-search-button-background: var(--vp-local-nav-bg-color)
+    --docsearch-search-button-background: var(--vp-local-nav-bg-color);
 }
 
 div#app>div.Layout>header.VPNav>div.VPNavBar>div.divider>div.divider-line {

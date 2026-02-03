@@ -76,4 +76,4 @@ export default function heimu_plugin(md) {
     // Pass the token to the default renderer.
     return defaultRender(tokens, idx, options, env, self);
   };
-};
+}

@@ -97,3 +97,7 @@ declare module '*.vue' {
 ```md
 <DownloadCounter fileName="archive.zip" filePath="https://r2.example.com/archive.zip" />
 ```
+
+## CORS问题
+
+如果查询API没有与博客部署在同一域名下，可能会因为[跨源资源共享（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/CORS)问题导致API访问请求失败，此时请参考[这篇文章](../cloudflare/cors-rules.md)。

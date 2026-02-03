@@ -27,7 +27,8 @@ export default [
             { text: '使用VitePress', link: '/sitelog/vitepress/using-vitepress' },
             { text: 'index页面问题', link: '/sitelog/vitepress/index-page-problem' },
             { text: '黑幕文本Markdown插件', link: '/sitelog/vitepress/heimu-markdown' },
-            { text: '下载计数组件', link: '/sitelog/vitepress/download-counter' }
+            { text: '下载计数组件', link: '/sitelog/vitepress/download-counter' },
+            { text: '导航栏背景色', link: '/sitelog/vitepress/navbar-background-color' }
         ]
     }
 ];

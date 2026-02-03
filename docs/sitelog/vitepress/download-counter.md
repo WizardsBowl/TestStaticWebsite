@@ -1,3 +1,12 @@
+---
+description: 此文介绍了通过编写一个Vue组件，实现显示文件下载次数的方法，需要提前布置好后端，公开API访问
+head:
+  - - meta
+    - name: keywords
+      content: VitePress Vue组件 文件 下载 次数 统计 计数 前端
+tags: [VitePress,网站建设,Vue,插件]
+---
+
 # 下载计数组件
 
 此文介绍了通过编写一个[Vue组件](https://cn.vuejs.org/guide/essentials/component-basics.html)，实现显示文件下载次数的功能。

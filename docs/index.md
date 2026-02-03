@@ -1,5 +1,11 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+head:
+  - - meta
+    - name: keywords
+      content: 巫碗子 首页 个人 博客 WizardsBowl 碗里巫云
+tags: [巫碗子]
+---
+
 layout: home
 
 hero:

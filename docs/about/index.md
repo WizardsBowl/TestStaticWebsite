@@ -1,3 +1,12 @@
+---
+description: 巫碗子网站的简介，网站的性质以及主要内容
+head:
+  - - meta
+    - name: keywords
+      content: 巫碗子 简介 性质 博客 WizardsBowl 碗里巫云
+tags: [巫碗子,简介]
+---
+
 # 巫碗子简介
 
 巫碗子(**Fuwanko**)是我(**WizardsBowl**/**碗里巫云**)的另一个博客。

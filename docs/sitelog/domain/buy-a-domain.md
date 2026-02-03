@@ -1,3 +1,12 @@
+---
+description: 本页面记录了本人购买域名的历程，以及对.cn域名和.com域名的看法
+head:
+  - - meta
+    - name: keywords
+      content: 域名 选择 购买 网站建设 cn域名 com域名 地区限制 顶级域名 TLD
+tags: [域名,网站建设]
+---
+
 # 购买域名
 
 本页面记录了我购买域名的历程。

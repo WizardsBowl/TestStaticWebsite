@@ -1,3 +1,12 @@
+---
+description: 介绍如何更改VitePress站点的导航栏背景色，以及如何隐藏导航栏下的分割线
+head:
+  - - meta
+    - name: keywords
+      content: VitePress 导航栏 背景色 navbar background color 自定义 个性化 css 分割线
+tags: [VitePress,网站建设,个性化,css]
+---
+
 # 导航栏背景色
 
 之前想给网站换个主题色，好区分一下主站和副站，结果就把网站的背景色整个给换掉了，效果嘛...一言难尽。!!简直扎眼!!

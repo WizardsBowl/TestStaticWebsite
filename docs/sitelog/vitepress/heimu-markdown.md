@@ -1,3 +1,12 @@
+---
+description: 此文介绍了利用markdown-it插件实现像萌娘百科那样的黑幕文本的效果
+head:
+  - - meta
+    - name: keywords
+      content: VitePress markdown-it 插件 黑幕 黑幕文本 剧透 剧透文本 heimu spoiler Markdown
+tags: [VitePress,网站建设,markdown-it,插件]
+---
+
 # 黑幕文本Markdown插件
 
 想要实现像萌百那样的黑幕文本，或者说剧透文本(Spoiler)的效果，但是显然Markdown的标准语法是不包含这个的。

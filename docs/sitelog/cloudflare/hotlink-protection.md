@@ -1,3 +1,12 @@
+---
+description: 本文介绍了一种利用Cloudflare规则设置防盗链（热链保护，Hotlink Protection）功能的方法
+head:
+  - - meta
+    - name: keywords
+      content: Cloudflare 防盗链 热链保护 Hotlink Protection Cloudflare规则 域名 白名单 安全规则
+tags: [Cloudflare,网站建设,CF规则]
+---
+
 # 防盗链规则
 
 为了防止其他网站直接引用你的站点资源，消耗你的服务器带宽，一般需要设置防盗链（热链保护，Hotlink Protection）规则。

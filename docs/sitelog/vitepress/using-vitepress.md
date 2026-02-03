@@ -1,6 +1,15 @@
+---
+description: 介绍本人发现和使用VitePress作为静态站点生成器的经历
+head:
+  - - meta
+    - name: keywords
+      content: VitePress 静态站点 静态站点生成器 域名 博客
+tags: [VitePress,网站建设]
+---
+
 # 使用VitePress
 
-只连接到`Hello World`Worker又有什么用呢？得有实际页面内容才行。
+域名只连接到`Hello World`Worker又有什么用呢？得有实际页面内容才行。
 
 ## 选择VitePress
 

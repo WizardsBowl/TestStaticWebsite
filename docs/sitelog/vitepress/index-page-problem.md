@@ -1,3 +1,12 @@
+---
+description: 此文介绍了解决VitePress有时对于index页面不能正确地读取其侧边栏配置并为其自动添加上下页链接的问题的方法
+head:
+  - - meta
+    - name: keywords
+      content: VitePress index页面 问题 错误 高亮 上下页链接 侧边栏配置 路径
+tags: [VitePress,网站建设]
+---
+
 # index页面问题
 
 在使用VitePress的过程中发现，对于子文件夹中的`index.md`文件，有时VitePress不能正确地读取侧边栏配置并为其自动添加上下页链接。

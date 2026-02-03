@@ -1,3 +1,12 @@
+---
+description: 本页面记录了本人向Cloudflare加入域并设置跳转规则的历程，提及了根域名的多种称呼，记录了HTTP+根域名的访问有时会跳转失败的现象
+head:
+  - - meta
+    - name: keywords
+      content: Cloudflare 加入域 根域名的叫法 域名跳转 根域跳转WWW域 HTTP跳转HTTPS 跳转规则 问题 失败
+tags: [Cloudflare,网站建设,CF规则]
+---
+
 # 向CF加入域
 
 购买域名之后，自然就是要让它指向一个服务器。然而我哪里会有服务器呢？我又哪来的公网IP呢？

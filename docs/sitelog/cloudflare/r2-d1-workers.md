@@ -3,7 +3,7 @@ description: 本文介绍了一种简单的利用Cloudflare的R2、D1、Workers�
 head:
   - - meta
     - name: keywords
-      content: Cloudflare 文件 下载量 计数 统计 查询 API 数据库 SQL R2 D1 Workers 后端
+      content: Cloudflare,文件,下载量,计数,统计,查询,API,数据库,SQL,R2,D1,Workers,后端
 tags: [Cloudflare,网站建设,数据库]
 ---
 

@@ -3,7 +3,7 @@ description: 此文介绍了通过编写一个Vue组件，实现显示文件下�
 head:
   - - meta
     - name: keywords
-      content: VitePress Vue组件 文件 下载 次数 统计 计数 前端
+      content: VitePress,Vue组件,文件,下载,次数,统计,计数,前端
 tags: [VitePress,网站建设,Vue,插件]
 ---
 

@@ -3,7 +3,7 @@ description: 此文介绍了解决VitePress有时对于index页面不能正确�
 head:
   - - meta
     - name: keywords
-      content: VitePress index页面 问题 错误 高亮 上下页链接 侧边栏配置 路径
+      content: VitePress,index页面,问题,错误,高亮,上下页链接,侧边栏配置,路径
 tags: [VitePress,网站建设]
 ---
 

@@ -3,7 +3,7 @@ description: 本页面记录了本人向Cloudflare加入域并设置跳转规则
 head:
   - - meta
     - name: keywords
-      content: Cloudflare 加入域 根域名的叫法 域名跳转 根域跳转WWW域 HTTP跳转HTTPS 跳转规则 问题 失败
+      content: Cloudflare,加入域,根域名的叫法,域名跳转,根域跳转WWW域,HTTP跳转HTTPS,跳转规则,问题,失败
 tags: [Cloudflare,网站建设,CF规则]
 ---
 

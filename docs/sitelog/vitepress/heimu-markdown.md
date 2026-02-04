@@ -3,7 +3,7 @@ description: 此文介绍了利用markdown-it插件实现像萌娘百科那样�
 head:
   - - meta
     - name: keywords
-      content: VitePress markdown-it 插件 黑幕 黑幕文本 剧透 剧透文本 heimu spoiler Markdown
+      content: VitePress,markdown-it,插件,黑幕,黑幕文本,剧透,剧透文本,heimu,spoiler,Markdown
 tags: [VitePress,网站建设,markdown-it,插件]
 ---
 

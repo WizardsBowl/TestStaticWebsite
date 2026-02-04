@@ -3,7 +3,7 @@ description: 本文介绍了一种利用Cloudflare规则设置防盗链（热链
 head:
   - - meta
     - name: keywords
-      content: Cloudflare 防盗链 热链保护 Hotlink Protection Cloudflare规则 域名 白名单 安全规则
+      content: Cloudflare,防盗链,热链保护,Hotlink,Protection,Cloudflare规则,域名,白名单,安全规则
 tags: [Cloudflare,网站建设,CF规则]
 ---
 

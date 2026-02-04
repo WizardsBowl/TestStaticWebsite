@@ -3,7 +3,7 @@ description: 网站日志板块简介，板块的性质及主要内容
 head:
   - - meta
     - name: keywords
-      content: 巫碗子 网站日志板块 简介 性质 主要内容
+      content: 巫碗子,网站日志板块,简介,性质,主要内容
 tags: [网站日志,简介]
 ---
 

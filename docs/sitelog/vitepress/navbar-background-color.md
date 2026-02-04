@@ -3,7 +3,7 @@ description: 介绍如何更改VitePress站点的导航栏背景色，以及如�
 head:
   - - meta
     - name: keywords
-      content: VitePress 导航栏 背景色 navbar background color 自定义 个性化 css 分割线
+      content: VitePress,导航栏,背景色,navbar,background,color,自定义,个性化,css,分割线
 tags: [VitePress,网站建设,个性化,css]
 ---
 

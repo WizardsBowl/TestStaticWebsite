@@ -3,7 +3,7 @@ description: 本文介绍了一种利用Cloudflare规则处理跨源资源共享
 head:
   - - meta
     - name: keywords
-      content: Cloudflare CORS 跨源资源共享 Cloudflare规则 请求标头 响应标头 转换规则 域名 白名单 动态响应
+      content: Cloudflare,CORS,跨源资源共享,Cloudflare规则,请求标头,响应标头,转换规则,域名,白名单,动态响应
 tags: [Cloudflare,网站建设,CF规则]
 ---
 

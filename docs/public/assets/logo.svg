@@ -1,8 +1,30 @@
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
 
- <g>
-  <title>Layer 1</title>
-  <path stroke="#0d5f96" id="svg_15" d="m194.35006,416.97142c321.31,479.28098 382.87333,-214.00453 382.87333,-214.00453c0,0 -359.26,-182.79553 -359.26,-182.79553c0,0 -116.38,503.80233 -116.38,503.80233c0,0 -228.54333,-586.28324 92.76667,-107.00226z" opacity="NaN" stroke-width="24" fill="#0cb8f7"/>
-  <path transform="rotate(-28.6578 395.5 395.331)" stroke="#2b35ff" id="svg_37" d="m298.07965,359.22673c60.4678,91.59284 139.59851,82.03533 194.8407,47.78757" opacity="NaN" stroke-width="36" fill="none"/>
- </g>
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 128px;
+      }
+
+      .cls-3 {
+        fill: #ff8b6a;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-3" width="1024" height="1024" rx="128" ry="128"/>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <circle class="cls-1" cx="512" cy="897" r="80"/>
+    <path class="cls-2" d="m346,547c-121-19-220-78-222-161.76,0-172.16,168.21-258.24,392.5-258.24s392.53,107.6,392.5,258.24c-.02,99.66-93.75,140.87-214.94,172.16-103.06,26.6-182.06,58.6-182.06,151.6"/>
+    <circle class="cls-1" cx="346" cy="547" r="64"/>
+    <circle class="cls-1" cx="512" cy="709" r="64"/>
+  </g>
 </svg>

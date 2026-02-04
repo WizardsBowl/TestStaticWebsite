@@ -14,7 +14,10 @@ export default defineConfig({
   title: "巫碗子",
   description: "碗里巫云(WizardsBowl)的另一个博客",
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/logo.svg' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/assets/logo.png' }]
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

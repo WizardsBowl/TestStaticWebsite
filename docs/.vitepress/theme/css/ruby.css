@@ -1,0 +1,11 @@
+ruby, ruby>rt {
+    text-align: justify;
+    text-align-last: justify;
+    /*
+    text-justify: auto;
+    */
+}
+
+ruby>rt {
+    font-size: 75%;
+}

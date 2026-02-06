@@ -118,8 +118,10 @@ const isChildActive = (navItem: DefaultTheme.NavItem) => {
   if ('link' in navItem) {
     return isActive(
       page.value.relativePath,
-      navItem.activeMatch ? navItem.activeMatch : (typeof navItem.link === "function" ? navItem.link(page.value) : navItem.link),
-      !!navItem.activeMatch
+      typeof navItem.link === "function" ? navItem.link(page.value) : navItem.link, // [!code --]
+      !!props.item.activeMatch // [!code --]
+      navItem.activeMatch ? navItem.activeMatch : (typeof navItem.link === "function" ? navItem.link(page.value) : navItem.link), // [!code ++]
+      !!navItem.activeMatch // [!code ++]
     )
   }
 

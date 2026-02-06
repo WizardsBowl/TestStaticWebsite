@@ -1,0 +1,15 @@
+diff --git a/node_modules/vitepress/dist/client/theme-default/components/VPNavBarMenuGroup.vue b/node_modules/vitepress/dist/client/theme-default/components/VPNavBarMenuGroup.vue
+index 76cd42c..86bb176 100644
+--- a/node_modules/vitepress/dist/client/theme-default/components/VPNavBarMenuGroup.vue
++++ b/node_modules/vitepress/dist/client/theme-default/components/VPNavBarMenuGroup.vue
+@@ -17,8 +17,8 @@ const isChildActive = (navItem: DefaultTheme.NavItem) => {
+   if ('link' in navItem) {
+     return isActive(
+       page.value.relativePath,
+-      typeof navItem.link === "function" ? navItem.link(page.value) : navItem.link,
+-      !!props.item.activeMatch
++      navItem.activeMatch ? navItem.activeMatch : (typeof navItem.link === "function" ? navItem.link(page.value) : navItem.link),
++      !!navItem.activeMatch
+     )
+   }
+ 

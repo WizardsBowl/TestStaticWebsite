@@ -28,7 +28,7 @@ export default defineConfig({
 
       {
         text: '关于',
-        activeMatch: '/about/',
+        activeMatch: '^/about/',
         items: [
           { text: '网站简介', link: '/about/' }
         ]
@@ -36,7 +36,7 @@ export default defineConfig({
 
       {
         text: '编程',
-        activeMatch: '/programming/',
+        activeMatch: '^/programming/',
         items: [
           { text: '板块简介', link: '/programming/' }
         ]
@@ -44,7 +44,7 @@ export default defineConfig({
 
       {
         text: '随笔',
-        activeMatch: '/essay/',
+        activeMatch: '^/essay/',
         items: [
           { text: '板块简介', link: '/essay/' }
         ]
@@ -52,7 +52,7 @@ export default defineConfig({
 
       {
         text: '网站日志',
-        activeMatch: '/sitelog/',
+        activeMatch: '^/sitelog/',
         items: [
           { text: '板块简介', link: '/sitelog/' },
           { text: '域名问题', link: '/sitelog/domain/buy-a-domain' },

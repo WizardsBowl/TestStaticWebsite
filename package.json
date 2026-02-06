@@ -1,11 +1,13 @@
 {
   "devDependencies": {
     "@mdit/plugin-spoiler": "^0.22.2",
+    "patch-package": "^8.0.1",
     "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "git fetch --unshallow && vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "postinstall": "patch-package"
   }
 }

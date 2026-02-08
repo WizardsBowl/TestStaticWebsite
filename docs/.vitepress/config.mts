@@ -46,7 +46,8 @@ export default defineConfig({
         text: '随笔',
         activeMatch: '^/essay/',
         items: [
-          { text: '板块简介', link: '/essay/' }
+          { text: '板块简介', link: '/essay/' },
+          { text: '信息技术', link: '/essay/it/build-vitepress' }
         ]
       },
 

@@ -2,11 +2,13 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
 import DownloadCounter from './components/DownloadCounter.vue'
+
 import './css/heimu.css'
 import './css/gray-italic.css'
 import './css/vp-brand.css'
 import './css/vp-navbar.css'
 import './css/ruby.css'
+import './css/download-counter.css'
 
 export default {
   extends: DefaultTheme,

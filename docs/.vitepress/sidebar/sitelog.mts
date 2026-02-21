@@ -9,7 +9,7 @@ export default [
     {
         text: '域名问题',
         items: [
-            { text: '购买域名', link: '/sitelog/domain/buy-a-domain' }
+            { text: '域名购买问题', link: '/sitelog/domain/buy-a-domain' }
         ]
     },
     {

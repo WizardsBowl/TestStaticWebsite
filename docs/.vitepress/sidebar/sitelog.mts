@@ -29,7 +29,8 @@ export default [
             { text: '黑幕文本Markdown插件', link: '/sitelog/vitepress/heimu-markdown' },
             { text: '下载计数组件', link: '/sitelog/vitepress/download-counter' },
             { text: '导航栏背景色', link: '/sitelog/vitepress/navbar-background-color' },
-            { text: '导航栏高亮问题', link: '/sitelog/vitepress/navbar-highlight' }
+            { text: '导航栏高亮问题', link: '/sitelog/vitepress/navbar-highlight' },
+            { text: '选项卡插件', link: '/sitelog/vitepress/tabs-plugin' }
         ]
     }
 ];

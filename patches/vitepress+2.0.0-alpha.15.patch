@@ -13,3 +13,21 @@ index 76cd42c..86bb176 100644
      )
    }
  
+diff --git a/node_modules/vitepress/dist/node/chunk-BssBsV50.js b/node_modules/vitepress/dist/node/chunk-BssBsV50.js
+index 3b821cc..dffcdcf 100644
+--- a/node_modules/vitepress/dist/node/chunk-BssBsV50.js
++++ b/node_modules/vitepress/dist/node/chunk-BssBsV50.js
+@@ -37058,7 +37058,12 @@ const linkPlugin = (md, externalAttrs, base, slugify) => {
+       const url = hrefAttr[1];
+       if (isExternal(url)) {
+         Object.entries(externalAttrs).forEach(([key, val]) => {
+-          token.attrSet(key, val);
++            if (key === "rel") {
++                token.attrJoin(key, val);
++            }
++            else {
++                token.attrSet(key, val);
++            }
+         });
+         if (url.replace(EXTERNAL_URL_RE, "").startsWith("//localhost:")) {
+           pushLink(url, env);

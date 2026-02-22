@@ -43,3 +43,19 @@ onMounted(async () => {
         <p>{{ size }} {{ count }}次下载</p>
     </div>
 </template>
+
+<style>
+
+:root {
+    --wzb-download-counter-border: transparent;
+    --wzb-download-counter-text: var(--vp-c-text-1);
+    --wzb-download-counter-bg: var(--vp-c-green-soft);
+}
+
+.download-counter.custom-block {
+    border-color: var(--wzb-download-counter-border);
+    color: var(--wzb-download-counter-text);
+    background-color: var(--wzb-download-counter-bg);
+}
+
+</style>

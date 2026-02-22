@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "@mdit/plugin-spoiler": "^0.22.2",
+    "@mdit/plugin-tab": "^0.23.1",
+    "markdown-it": "^14.1.1",
     "patch-package": "^8.0.1",
     "vitepress": "^2.0.0-alpha.15"
   },

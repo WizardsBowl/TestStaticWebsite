@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { spoiler } from "@mdit/plugin-spoiler";
+import { tab } from "@mdit/plugin-tab";
 import heimu from './markdown-it-plugins/heimu.mjs'
 import grayItalic from './markdown-it-plugins/gray-italic.mjs'
 
@@ -152,6 +153,9 @@ export default defineConfig({
       md.use(spoiler, {
         tag: 'span',
         attrs: [["class", "heimu"], ['title', '你知道的太多了'], ["tabindex", "-1"]]
+      });
+      md.use(tab, {
+        name: 'tabs'
       });
     }
   }

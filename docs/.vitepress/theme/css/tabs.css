@@ -1,0 +1,72 @@
+.tabs-tabs-wrapper {
+    margin-top: 16px;
+    border: 1px solid var(--vp-code-tab-divider);
+    border-radius: 8px;
+}
+
+.tabs-tabs-wrapper .tabs-tabs-header {
+    position: relative;
+    display: flex;
+    padding: 0 12px;
+    background-color: var(--vp-code-tab-bg);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.tabs-tabs-wrapper .tabs-tabs-header button.tabs-tab-button {
+    position: relative;
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vp-code-tab-text-color);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.25s;
+
+    &::after {
+        position: absolute;
+        right: 8px;
+        bottom: 0px;
+        left: 8px;
+        z-index: 1;
+        height: 2px;
+        border-radius: 2px;
+        content: '';
+        background-color: transparent;
+        transition: background-color 0.25s;
+    }
+
+    &.active {
+        color: var(--vp-code-tab-active-text-color);
+
+        &::after {
+            background-color: var(--vp-code-tab-active-bar-color);
+        }
+    }
+}
+
+.tabs-tabs-wrapper .tabs-tabs-container .tabs-tab-content {
+    position: relative;
+    padding: 16px 12px;
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    .tabs-tabs-wrapper {
+        .VPDoc & {
+            margin-left: -22px;
+            margin-right: -22px;
+        }
+
+        .VPDoc .tabs-tab-content & {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+    }
+}

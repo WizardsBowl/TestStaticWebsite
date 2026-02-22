@@ -6,6 +6,7 @@ import BiliVideo from './components/BiliVideo.vue'
 
 import './css/heimu.css'
 import './css/gray-italic.css'
+import './css/transparent-text.css'
 import './css/vp-brand.css'
 import './css/vp-navbar.css'
 import './css/ruby.css'

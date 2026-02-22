@@ -1,0 +1,4 @@
+.transparent-text {
+    color: transparent !important;
+    text-shadow: none !important;
+}

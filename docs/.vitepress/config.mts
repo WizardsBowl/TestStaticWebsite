@@ -4,6 +4,7 @@ import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
 import heimu from './markdown-it-plugins/heimu.mjs'
 import grayItalic from './markdown-it-plugins/gray-italic.mjs'
+import transparentText from './markdown-it-plugins/transparent-text.mjs'
 
 import aboutSidebar from './sidebar/about.mts'
 import programmingSidebar from './sidebar/programming.mts'
@@ -150,6 +151,7 @@ export default defineConfig({
     config: (md) => {
       md.use(heimu);
       md.use(grayItalic);
+      md.use(transparentText);
       md.use(spoiler, {
         tag: 'span',
         attrs: [["class", "heimu"], ['title', '你知道的太多了'], ["tabindex", "-1"]]

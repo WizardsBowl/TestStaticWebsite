@@ -39,7 +39,7 @@ onMounted(async () => {
 <template>
     <div class="download-counter custom-block">
         <p class="custom-block-title custom-block-title-default">下载链接</p>
-        <p><a :href="filePath" target="_self">{{ fileName }}</a></p>
+        <p><a :href="filePath" target="_self" rel="nofollow">{{ fileName }}</a></p>
         <p>{{ size }} {{ count }}次下载</p>
     </div>
 </template>

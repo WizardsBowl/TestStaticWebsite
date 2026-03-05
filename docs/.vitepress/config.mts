@@ -169,9 +169,9 @@ export default defineConfig({
     );
     ((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
       ['meta', { property: 'og:locale', content: site.lang }],
-      ['meta', { property: 'og:title', content: pageData.title }],
+      ['meta', { property: 'og:title', content: pageData.title || site.title }],
       ['meta', { property: 'og:type', content: 'article' }],
-      ['meta', { property: 'og:description', content: pageData.description }],
+      ['meta', { property: 'og:description', content: pageData.description || site.description }],
       ['meta', { property: 'og:image', content: pageData.frontmatter.ogImage || ogDefaultImage }],
       ['meta', { property: 'og:site_name', content: site.title }],
       ['meta', { property: 'og:url', content: `${hostname}/${pageData.relativePath.replace(/\.md$/, '')}` }]

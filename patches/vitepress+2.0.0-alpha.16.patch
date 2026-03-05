@@ -1,0 +1,18 @@
+diff --git a/node_modules/vitepress/dist/node/chunk-CCYAX98b.js b/node_modules/vitepress/dist/node/chunk-CCYAX98b.js
+index 3f99f3c..af1e8d2 100644
+--- a/node_modules/vitepress/dist/node/chunk-CCYAX98b.js
++++ b/node_modules/vitepress/dist/node/chunk-CCYAX98b.js
+@@ -35992,7 +35992,12 @@ const linkPlugin = (md, externalAttrs, base, slugify) => {
+       const url = hrefAttr[1];
+       if (isExternal(url)) {
+         Object.entries(externalAttrs).forEach(([key, val]) => {
+-          token.attrSet(key, val);
++            if (key === "rel") {
++                token.attrJoin(key, val);
++            }
++            else {
++                token.attrSet(key, val);
++            }
+         });
+         if (url.replace(EXTERNAL_URL_RE, "").startsWith("//localhost:")) {
+           pushLink(url, env);

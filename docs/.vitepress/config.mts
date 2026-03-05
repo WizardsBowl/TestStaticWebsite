@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
+import { hostname, ogDefaultImage } from './shared';
 
 import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
@@ -81,7 +82,7 @@ export default defineConfig({
       copyright: 'Copyright © 2026-present <a href="https://github.com/WizardsBowl" target="_blank">WizardsBowl</a>. All rights reserved.'
     },
 
-    search:{
+    search: {
       provider: 'local',
       options: {
         translations: {
@@ -133,7 +134,7 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容'
   },
   sitemap: {
-    hostname: 'https://www.wzb233.com'
+    hostname: hostname
   },
   markdown: {
     lineNumbers: true,
@@ -160,5 +161,20 @@ export default defineConfig({
         name: 'tabs'
       });
     }
+  },
+  transformPageData(pageData, ctx) {
+    const site = resolveSiteDataByRoute(
+      ctx.siteConfig.site,
+      pageData.relativePath
+    );
+    ((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
+      ['meta', { property: 'og:locale', content: site.lang }],
+      ['meta', { property: 'og:title', content: pageData.title }],
+      ['meta', { property: 'og:type', content: 'article' }],
+      ['meta', { property: 'og:description', content: pageData.description }],
+      ['meta', { property: 'og:image', content: pageData.frontmatter.ogImage || ogDefaultImage }],
+      ['meta', { property: 'og:site_name', content: site.title }],
+      ['meta', { property: 'og:url', content: `${hostname}/${pageData.relativePath.replace(/\.md$/, '')}` }]
+    );
   }
 })

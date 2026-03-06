@@ -1,5 +1,5 @@
 import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
-import { hostname, ogDefaultImage } from './shared';
+import { hostname, ogDefaultImage, getUrlByRelativePath } from './shared';
 
 import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
@@ -180,7 +180,7 @@ export default defineConfig({
       ['meta', { property: 'og:description', content: pageData.description || site.description }],
       ['meta', { property: 'og:image', content: pageData.frontmatter.ogImage || ogDefaultImage }],
       ['meta', { property: 'og:site_name', content: site.title }],
-      ['meta', { property: 'og:url', content: `${hostname}/${pageData.relativePath.replace(/\.md$/, '')}` }]
+      ['meta', { property: 'og:url', content: getUrlByRelativePath('/' + pageData.relativePath.replace(/\.md$/, '')) }]
     );
   }
 })

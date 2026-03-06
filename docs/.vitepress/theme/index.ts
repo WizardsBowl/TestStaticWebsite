@@ -1,5 +1,6 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import MyLayout from './MyLayout.vue'
 
 import DownloadCounter from './components/DownloadCounter.vue'
 import BiliVideo from './components/BiliVideo.vue'
@@ -17,6 +18,7 @@ import { useMditTab } from './composables/mditTab'
 
 export default {
   extends: DefaultTheme,
+  Layout: MyLayout,
   enhanceApp({ app }) {
     // 注册自定义全局组件
     app.component('DownloadCounter', DownloadCounter)

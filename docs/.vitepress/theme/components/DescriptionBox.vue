@@ -32,4 +32,8 @@ const showDescription = computed(() => {
     background-color: var(--wzb-description-box-bg);
 }
 
+.page-tags-viewer + .description-box.custom-block {
+    margin-top: 8px;
+}
+
 </style>

@@ -150,6 +150,12 @@ export default defineConfig({
       detailsLabel: '详细信息'
     },
     config: (md) => {
+      // 组件插入h1标题下
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+        let htmlResult = slf.renderToken(tokens, idx, options)
+        if (tokens[idx].tag === 'h1') htmlResult += `<DescriptionBox />`
+        return htmlResult
+      };
       md.use(heimu);
       md.use(grayItalic);
       md.use(transparentText);

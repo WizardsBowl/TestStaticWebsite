@@ -3,11 +3,11 @@
 import { computed } from "vue";
 import DefaultTheme from 'vitepress/theme'
 import { useData } from "vitepress";
-import { getUrlByRelativePath } from '../shared';
+import { getUrlByPageData } from '../shared';
 
 const { Layout } = DefaultTheme
 const VPData = useData();
-const pageUrl = computed(() => getUrlByRelativePath('/' + VPData.page.value.relativePath.replace(/\.md$/, '')));
+const pageUrl = computed(() => getUrlByPageData(VPData.page.value));
 
 </script>
 

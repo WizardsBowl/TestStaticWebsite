@@ -10,7 +10,7 @@ const VPData = useData();
 <template>
     <div v-if="VPData.page.value.frontmatter.tags" class="page-tags-viewer">
         <div class="tags-container">
-            <span v-for="tag in VPData.page.value.frontmatter.tags" :key="tag" class="tag">{{ tag }}</span>
+            <a v-for="tag in VPData.page.value.frontmatter.tags" :key="tag" :href="`/tags?tag=${encodeURIComponent(tag)}`" class="tag">{{ tag }}</a>
         </div>
     </div>
 </template>
@@ -23,8 +23,6 @@ const VPData = useData();
 .tags-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
     gap: 4px;
 }
 
@@ -36,6 +34,7 @@ const VPData = useData();
     background-color: var(--vp-c-gray-soft);
     border-radius: 4px;
     transition: color 0.13s, background-color 0.13s;
+    text-decoration: none;
 
     &:hover {
         color: var(--vp-c-text-1);

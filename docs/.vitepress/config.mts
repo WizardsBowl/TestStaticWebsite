@@ -1,5 +1,5 @@
 import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
-import { hostname, ogDefaultImage, getUrlByRelativePath } from './shared';
+import { hostname, ogDefaultImage, getUrlByPageData } from './shared'
 
 import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
@@ -28,6 +28,8 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
+
+      { text: '标签', link: '/tags' },
 
       {
         text: '关于',
@@ -173,14 +175,18 @@ export default defineConfig({
       ctx.siteConfig.site,
       pageData.relativePath
     );
+    const title = pageData.title || site.title;
+    const description = pageData.description || site.description;
+    const url = getUrlByPageData(pageData);
+    const ogImage = pageData.frontmatter.ogImage || ogDefaultImage;
     ((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
       ['meta', { property: 'og:locale', content: site.lang }],
-      ['meta', { property: 'og:title', content: pageData.title || site.title }],
+      ['meta', { property: 'og:title', content: title }],
       ['meta', { property: 'og:type', content: 'article' }],
-      ['meta', { property: 'og:description', content: pageData.description || site.description }],
-      ['meta', { property: 'og:image', content: pageData.frontmatter.ogImage || ogDefaultImage }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:image', content: ogImage }],
       ['meta', { property: 'og:site_name', content: site.title }],
-      ['meta', { property: 'og:url', content: getUrlByRelativePath('/' + pageData.relativePath.replace(/\.md$/, '')) }]
+      ['meta', { property: 'og:url', content: url }]
     );
   }
 })

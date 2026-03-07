@@ -6,6 +6,7 @@ import DownloadCounter from './components/DownloadCounter.vue'
 import BiliVideo from './components/BiliVideo.vue'
 import DescriptionBox from './components/DescriptionBox.vue'
 import PageTagsViewer from './components/PageTagsViewer.vue'
+import TagsPage from './components/TagsPage.vue'
 
 import './style/heimu.css'
 import './style/gray-italic.css'
@@ -26,6 +27,7 @@ export default {
     app.component('BiliVideo', BiliVideo)
     app.component('DescriptionBox', DescriptionBox)
     app.component('PageTagsViewer', PageTagsViewer)
+    app.component('TagsPage', TagsPage)
   },
   setup() {
     useMditTab();

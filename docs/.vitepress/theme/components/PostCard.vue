@@ -15,7 +15,7 @@ const props = defineProps<{
         <img :src="postData.coverImage" alt="Cover Image" />
       </div>
       <div class="post-card-content">
-        <h3 class="post-card-title">{{ postData.title }}</h3>
+        <h3 class="post-card-title" :title="postData.title">{{ postData.title }}</h3>
         <p class="post-card-description">{{ postData.description }}</p>
         <div class="post-card-tags">
           <span v-for="tag in postData.tags" :key="tag" class="post-card-tag">{{ tag }}</span>

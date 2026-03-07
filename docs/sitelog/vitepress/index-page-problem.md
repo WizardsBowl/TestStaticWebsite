@@ -1,4 +1,5 @@
 ---
+title: VitePress侧边栏在index页面上出错，标题不会高亮，上下页链接缺失
 description: 此文介绍了解决VitePress有时对于index页面不能正确地读取其侧边栏配置并为其自动添加上下页链接的问题的方法
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [VitePress,网站建设]
 ---
 
-# index页面问题
+# VitePress侧边栏在index页面上出错，标题不会高亮，上下页链接缺失
 
 在使用VitePress的过程中发现，对于子文件夹中的`index.md`文件，有时VitePress不能正确地读取侧边栏配置并为其自动添加上下页链接。
 

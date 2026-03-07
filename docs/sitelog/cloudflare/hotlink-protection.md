@@ -1,4 +1,5 @@
 ---
+title: 利用Cloudflare规则设置防盗链保护功能，仅允许白名单网站访问特定资源
 description: 本文介绍了一种利用Cloudflare规则设置防盗链（热链保护，Hotlink Protection）功能的方法
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [Cloudflare,网站建设,CF规则]
 ---
 
-# 防盗链规则
+# 利用Cloudflare规则设置防盗链保护功能，仅允许白名单网站访问特定资源
 
 为了防止其他网站直接引用你的站点资源，消耗你的服务器带宽，一般需要设置防盗链（热链保护，Hotlink Protection）规则。
 

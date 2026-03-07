@@ -1,4 +1,5 @@
 ---
+title: VitePress项目构建问题记录-可能遇到的问题以及解决方法
 description: 构建VitePress仓库时遇到安装依赖失败、构建也失败的问题。可能的原因包括下载Playwright的脚本失败，缺失相关的包从而产生未知指令错误，项目的补丁没有正确安装等等。
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [随笔,VitePress]
 ---
 
-# 构建VitePress
+# VitePress项目构建问题记录-可能遇到的问题以及解决方法
 
 此页面记录了我在构建[VitePress](https://github.com/vuejs/vitepress)项目时遇到的问题。
 

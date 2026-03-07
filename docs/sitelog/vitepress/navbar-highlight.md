@@ -1,4 +1,5 @@
 ---
+title: 正则表达式匹配导致VitePress导航栏被错误地高亮（已修复）
 description: 记录了VitePress默认主题的导航栏有时会错误地高亮的问题，分析了问题产生的原因以及解决方法
 head:
   - - meta
@@ -7,9 +8,13 @@ head:
 tags: [VitePress,网站建设]
 ---
 
-# 导航栏高亮问题
+# 正则表达式匹配导致VitePress导航栏被错误地高亮（已修复）
 
 刚才遇到了VitePress默认主题的导航栏有时会错误地高亮的问题，在此记录一下。
+
+::: tip
+目前该BUG已被修复。
+:::
 
 ## 发现问题
 
@@ -133,7 +138,9 @@ const isChildActive = (navItem: DefaultTheme.NavItem) => {
 
 ### 等待更新
 
-目前，修复该BUG的相关PR已被合并，等到VitePress下个版本发布就好。
+~~目前，修复该BUG的相关PR已被合并，等到VitePress下个版本发布就好。~~
+
+目前该BUG已被修复。
 
 ### 缓兵之计
 

@@ -1,4 +1,5 @@
 ---
+title: 本人使用Cloudflare并向其加入域的原因及过程
 description: 本页面记录了本人向Cloudflare加入域并设置跳转规则的历程，提及了根域名的多种称呼，记录了HTTP+根域名的访问有时会跳转失败的现象
 head:
   - - meta
@@ -7,13 +8,13 @@ head:
 tags: [Cloudflare,网站建设,CF规则]
 ---
 
-# 向CF加入域
+# 本人使用Cloudflare并向其加入域的原因及过程
 
 购买域名之后，自然就是要让它指向一个服务器。然而我哪里会有服务器呢？我又哪来的公网IP呢？
 
 于是非常自然地，选择了，CF（@@Cloudflare@@@@CrossFire@@@@Codeforces@@）。
 
-感谢赛博菩萨[Cloudflare](https://dash.cloudflare.com)。
+感谢赛博大善人[Cloudflare](https://dash.cloudflare.com)。
 
 ## 设置名称服务器
 

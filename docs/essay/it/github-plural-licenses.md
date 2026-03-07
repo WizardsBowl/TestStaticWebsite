@@ -1,4 +1,5 @@
 ---
+title: GitHub一个仓库多个许可，向同一个仓库中添加多个许可/开源协议的方法
 description: 介绍如何在GitHub的单个仓库中使用多个许可（LICENSE/开源协议）。
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [随笔,GitHub]
 ---
 
-# GitHub一个仓库多个许可
+# GitHub一个仓库多个许可，向同一个仓库中添加多个许可/开源协议的方法
 
 介绍如何在GitHub的单个仓库中使用多个许可（LICENSE/开源协议）。
 

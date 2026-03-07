@@ -1,4 +1,5 @@
 ---
+title: 巫碗子网站简介
 description: 巫碗子网站的简介，网站的性质以及主要内容
 head:
   - - meta

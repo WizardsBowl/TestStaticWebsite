@@ -1,4 +1,5 @@
 ---
+title: 简易Vue组件编写教程，实现查询和显示文件下载次数
 description: 此文介绍了通过编写一个Vue组件，实现显示文件下载次数的方法，需要提前布置好后端，公开API访问
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [VitePress,网站建设,Vue,插件]
 ---
 
-# 下载计数组件
+# 简易Vue组件编写教程，实现查询和显示文件下载次数
 
 此文介绍了通过编写一个[Vue组件](https://cn.vuejs.org/guide/essentials/component-basics.html)，实现显示文件下载次数的功能。
 

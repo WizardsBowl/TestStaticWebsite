@@ -1,4 +1,5 @@
 ---
+title: 利用Cloudflare规则解决CORS（跨源资源共享）问题，无Worker动态返回响应头
 description: 本文介绍了一种利用Cloudflare规则处理跨源资源共享（CORS）问题的方法，可以根据请求源动态返回响应头，无需Workers
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [Cloudflare,网站建设,CF规则]
 ---
 
-# CORS规则
+# 利用Cloudflare规则解决CORS（跨源资源共享）问题，无Worker动态返回响应头
 
 如果你尝试在`blog.example.com`中访问`api.example.com`，可能会遇到[跨源资源共享（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/CORS)问题，导致请求失败。此时就需要设置相关规则，给响应添加[CORS标头](https://developer.mozilla.org/zh-CN/docs/Glossary/CORS)，允许跨源请求。
 

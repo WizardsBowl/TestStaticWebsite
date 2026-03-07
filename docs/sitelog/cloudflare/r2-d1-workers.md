@@ -1,4 +1,5 @@
 ---
+title: Cloudflare的R2、D1、Workers联动，实现后台下载计数并开放查询API
 description: 本文介绍了一种简单的利用Cloudflare的R2、D1、Workers联动来提供下载量计数&查询的api接口的方法
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [Cloudflare,网站建设,数据库]
 ---
 
-# R2&D1&Workers联动
+# Cloudflare的R2、D1、Workers联动，实现后台下载计数并开放查询API
 
 本文介绍了一种简单的利用[R2](https://developers.cloudflare.com/r2/)&[D1](https://developers.cloudflare.com/d1/)&[Workers](https://developers.cloudflare.com/workers/)联动来提供下载量计数&查询的api接口的方法。
 

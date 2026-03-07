@@ -1,4 +1,5 @@
 ---
+title: VitePress选项卡markdown-it插件安装及配置教程
 description: 在VitePress中使用mdit-tabs插件，以实现选项卡功能。mdit-tabs插件本身只能将Markdown转换为html，所以后续需要手动添加css样式以及js代码。
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [VitePress,网站建设,markdown-it,插件]
 ---
 
-# 选项卡插件
+# VitePress选项卡markdown-it插件安装及配置教程
 
 我之前在写[红魔乡图片解包](https://www.wizardsbowl.com/touhou/patch/eosd-png-unpack.html){rel=nofollow}这篇文章的过程中，因为需要展示图片对比效果，就想到用一个选项卡来实现。然而VitePress自带的类似功能只有代码组，虽然是选项卡，但只能用来展示代码。所以，就需要安装其他插件来实现这个功能。
 

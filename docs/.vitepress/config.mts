@@ -155,7 +155,7 @@ export default defineConfig({
       // 组件插入h1标题下
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
         let htmlResult = slf.renderToken(tokens, idx, options)
-        if (tokens[idx].tag === 'h1') htmlResult += `<PageTagsViewer /><DescriptionBox />`
+        if (tokens[idx].tag === 'h1') htmlResult += `<BelowTitleContent />`
         return htmlResult
       };
       md.use(heimu);

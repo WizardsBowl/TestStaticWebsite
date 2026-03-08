@@ -2,10 +2,9 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 
+import BelowTitleContent from './components/BelowTitleContent.vue'
 import DownloadCounter from './components/DownloadCounter.vue'
 import BiliVideo from './components/BiliVideo.vue'
-import DescriptionBox from './components/DescriptionBox.vue'
-import PageTagsViewer from './components/PageTagsViewer.vue'
 import TagsPage from './components/TagsPage.vue'
 
 import './style/heimu.css'
@@ -23,10 +22,9 @@ export default {
   Layout: MyLayout,
   enhanceApp({ app }) {
     // 注册自定义全局组件
+    app.component('BelowTitleContent', BelowTitleContent)
     app.component('DownloadCounter', DownloadCounter)
     app.component('BiliVideo', BiliVideo)
-    app.component('DescriptionBox', DescriptionBox)
-    app.component('PageTagsViewer', PageTagsViewer)
     app.component('TagsPage', TagsPage)
   },
   setup() {

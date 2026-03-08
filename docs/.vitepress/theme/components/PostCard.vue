@@ -1,10 +1,16 @@
 <script setup lang="ts">
 
+import { computed } from "vue";
 import type { PostData } from "../../type";
+import { formatDateTime } from "../../shared/utils";
 
 const props = defineProps<{
   postData: PostData;
 }>();
+
+const datetime = computed(() => {
+  return formatDateTime(props.postData.date);
+});
 
 </script>
 
@@ -16,6 +22,7 @@ const props = defineProps<{
       </div>
       <div class="post-card-content">
         <h3 class="post-card-title" :title="postData.title">{{ postData.title }}</h3>
+        <p class="post-card-date">{{ datetime }}</p>
         <p class="post-card-description">{{ postData.description }}</p>
         <div class="post-card-tags">
           <span v-for="tag in postData.tags" :key="tag" class="post-card-tag">{{ tag }}</span>
@@ -74,6 +81,12 @@ const props = defineProps<{
     text-wrap: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.post-card-date {
+    font-size: 0.9em;
+    color: var(--vp-c-text-2);
+    margin: 0 0 8px;
 }
 
 .post-card-description {

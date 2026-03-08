@@ -8,7 +8,8 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --port 5175",
-    "docs:build": "git fetch --unshallow && vitepress build docs",
+    "docs:build": "vitepress build docs",
+    "docs:build:cf": "git fetch --unshallow && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "postinstall": "patch-package"
   }

@@ -1,6 +1,6 @@
 import { createContentLoader } from 'vitepress'
 import type { PostData } from '../type'
-import { hostname, ogDefaultImage } from './siteInfo'
+import { hostname, defaultCoverImage } from './siteInfo'
 
 declare const data: PostData[]
 export { data }
@@ -13,7 +13,7 @@ export default createContentLoader('**/*.md', {
                 description: page.frontmatter.description || '[内容概要]',
                 tags: page.frontmatter.tags || [],
                 url: page.url,
-                coverImage: page.frontmatter.ogImage || ogDefaultImage
+                coverImage: page.frontmatter.cover || defaultCoverImage
             }
         })
     },

@@ -2,6 +2,7 @@
 
 import { computed } from "vue";
 import DefaultTheme from 'vitepress/theme'
+import PostCover from "./components/PostCover.vue";
 import { useData } from "vitepress";
 import { getUrlByPageData } from '../shared';
 
@@ -13,6 +14,9 @@ const pageUrl = computed(() => getUrlByPageData(VPData.page.value));
 
 <template>
   <Layout>
+    <template #doc-before>
+      <PostCover />
+    </template>
     <template #doc-after>
       <div class="copyright-block tip custom-block">
         <p class="custom-block-title custom-block-title-default">版权声明</p>

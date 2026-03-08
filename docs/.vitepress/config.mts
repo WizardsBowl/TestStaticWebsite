@@ -1,5 +1,5 @@
 import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
-import { hostname, ogDefaultImage, getUrlByPageData } from './shared'
+import { hostname, defaultCoverImage, getUrlByPageData } from './shared'
 
 import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
@@ -178,7 +178,7 @@ export default defineConfig({
     const title = pageData.title || site.title;
     const description = pageData.description || site.description;
     const url = getUrlByPageData(pageData);
-    const ogImage = pageData.frontmatter.ogImage || ogDefaultImage;
+    const ogImage = pageData.frontmatter.cover || defaultCoverImage;
     ((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
       ['meta', { property: 'og:locale', content: site.lang }],
       ['meta', { property: 'og:title', content: title }],

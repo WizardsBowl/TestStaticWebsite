@@ -1,1 +1,1 @@
-export { hostname, ogDefaultImage, getUrlByPageData } from './siteInfo'
+export { hostname, defaultCoverImage, getUrlByPageData } from './siteInfo'

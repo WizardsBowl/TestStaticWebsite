@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@iconify/types": "^2.0.0",
+    "@iconify/vue": "^5.0.0",
     "@mdit/plugin-spoiler": "^0.22.2",
     "@mdit/plugin-tab": "^0.23.1",
     "@types/cross-spawn": "^6.0.6",

@@ -1,5 +1,6 @@
 import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
 import { hostname, defaultCoverImage, getUrlByPageData } from './shared'
+import { getIcon } from '@iconify/vue';
 
 import { spoiler } from "@mdit/plugin-spoiler";
 import { tab } from "@mdit/plugin-tab";
@@ -76,7 +77,23 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/WizardsBowl/TestStaticWebsite' }
+      { icon: 'github', link: 'https://github.com/WizardsBowl/TestStaticWebsite' },
+
+      { icon:
+        {
+          svg: '<span class="vpi-social-weibo" style="--icon: url(\'https://api.iconify.design/ri/weibo-fill.svg\');"></span>'
+        },
+        link: 'https://weibo.com/u/9188103579'
+      },
+
+      { icon: 'bilibili', link: 'https://space.bilibili.com/1735847445' },
+      
+      { icon:
+        {
+          svg: '<img src="https://blog.wizardsbowl.com/assets/logo.svg" style="width: 20px; height: 20px;" />'
+        },
+        link: 'https://blog.wizardsbowl.com'
+      },
     ],
 
     footer: {

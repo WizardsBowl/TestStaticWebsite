@@ -5,9 +5,10 @@ A test static website using VitePress.
 
 [![MIT][mit-shield]][mit][![CC BY 4.0][cc-by-shield]][cc-by]
 
-本博客的源代码采用[MIT License][mit]进行许可。
+除特别声明外：
 
-本博客文章内容采用[知识共享署名 4.0 国际许可协议][cc-by]进行许可。
+- 本博客的源代码及有关资源文件采用[MIT License][mit]进行许可。
+- 本博客的文章内容采用[知识共享署名 4.0 国际许可协议][cc-by]进行许可。
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 

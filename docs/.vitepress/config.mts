@@ -36,7 +36,8 @@ export default defineConfig({
         text: '关于',
         activeMatch: '^/about/',
         items: [
-          { text: '网站简介', link: '/about/' }
+          { text: '网站简介', link: '/about/' },
+          { text: '特别鸣谢', link: '/about/thanks' }
         ]
       },
 

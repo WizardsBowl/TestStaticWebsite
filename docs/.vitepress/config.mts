@@ -54,7 +54,8 @@ export default defineConfig({
         activeMatch: '^/essay/',
         items: [
           { text: '板块简介', link: '/essay/' },
-          { text: '信息技术', link: '/essay/it/build-vitepress' }
+          { text: '信息技术', link: '/essay/it/build-vitepress' },
+          { text: '校园生活', link: '/essay/campus/ahu-webvpn' }
         ]
       },
 

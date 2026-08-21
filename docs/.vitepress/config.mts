@@ -45,7 +45,8 @@ export default defineConfig({
         text: '编程',
         activeMatch: '^/programming/',
         items: [
-          { text: '板块简介', link: '/programming/' }
+          { text: '板块简介', link: '/programming/' },
+          { text: 'WEB开发', link: '/programming/web/dialog-do-not-close' }
         ]
       },
 

@@ -160,9 +160,12 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     image: {
-      lazyLoading: true
+      lazyLoad: true
     },
-    codeCopyButtonTitle: '复制代码',
+    codeCopyButton: {
+      tooltipText: '复制代码',
+      copiedText: '已复制'
+    },
     container: {
       tipLabel: '提示',
       warningLabel: '警告',

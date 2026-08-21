@@ -1,5 +1,5 @@
 import { defineConfig, resolveSiteDataByRoute, type HeadConfig } from 'vitepress'
-import { hostname, defaultCoverImage, getUrlByPageData } from './shared'
+import { hostname, defaultCoverImage, getUrlByPageData } from './shared/index.ts'
 import { getIcon } from '@iconify/vue';
 
 import { spoiler } from "@mdit/plugin-spoiler";

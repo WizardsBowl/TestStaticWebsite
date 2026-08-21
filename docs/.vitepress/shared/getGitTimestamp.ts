@@ -2,7 +2,7 @@ import { spawn, sync } from 'cross-spawn'
 import fs from 'node:fs'
 import path from 'node:path'
 import { Transform, type TransformCallback } from 'node:stream'
-import { slash } from './utils'
+import { slash } from './utils.ts'
 
 const lastUpdatedCache = new Map<string, number>()
 const createdCache = new Map<string, number>()

@@ -1,8 +1,8 @@
 import { createContentLoader } from 'vitepress'
-import type { PostData } from '../type'
-import { hostname, defaultCoverImage } from './siteInfo'
-import { getGitCreatedTimestamp } from './getGitTimestamp'
-import { getPathFromLink } from './utils'
+import type { PostData } from '../type/index.ts'
+import { hostname, defaultCoverImage } from './siteInfo.ts'
+import { getGitCreatedTimestamp } from './getGitTimestamp.ts'
+import { getPathFromLink } from './utils.ts'
 
 declare const data: PostData[]
 export { data }

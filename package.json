@@ -17,5 +17,6 @@
     "docs:build:cf": "git fetch --unshallow && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "postinstall": "patch-package"
-  }
+  },
+  "type" :"module"
 }

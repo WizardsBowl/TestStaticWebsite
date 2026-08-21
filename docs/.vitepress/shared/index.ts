@@ -1,2 +1,2 @@
-export * from './siteInfo'
-export * from './utils'
+export * from './siteInfo.ts'
+export * from './utils.ts'
